@@ -1,36 +1,56 @@
 .button {
+    min-width: 124px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
 }
 
 .disabled {
+    background-color: #80A5CC;
 }
 
 .secondary {
+    background-color: #FFFFFF;
+    color: #0066CC;
 }
 
 .default {
+    background: #0066cc;
+    color: #fff;
 }
 
 .red {
+    background: #cc1449;
+    color: #fff;
 }
 
 .default:hover {
+    background: #0080FF;
 }
 
 .red:hover {
+    background: #FF1947
 }
 
 .secondary:hover {
+    background: #E5F0FA
 }
 
 
 .default:active {
+    background: #0059B2
 }
 
 .secondary:active {
 }
 
 .red:active {
+    background: #B21232
 }
 
 .button:disabled {
+
 }
