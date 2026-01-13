@@ -1,35 +1,65 @@
 .greetingForm {
+    padding: 1em;
 }
 
 .inputAndButtonContainer {
+ display: flex;
 }
 
 .error {
+    color: red;
 }
 
 .input {
+    border: 2px solid green;
+    padding: 1em;
+    width: 200px;
+    margin: 10px;
+    outline: none;
 }
 
 .input:focus {
+    padding: 1em;
+    width: 200px;
 }
 
 .errorInput {
+    border: 2px solid red;
+    padding: 1em;
+    width: 200px;
 }
 
 .button {
+    padding: 10px;
+    background: yellowgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 10px;
 }
 
 .button:focus {
+    color: black;
+    outline: none;
 }
 
 .button:active {
+    background: lime;
+    outline: none;
 }
 
 .button:disabled {
+    color: gray;
+    background: lightgrey;
 }
 
 .text {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px;
 }
 
 .greeting {
+    font-weight: bold;
+    margin: 10px;
 }
